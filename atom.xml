@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hsy10492.github.io</id>
+    <title>the_thing</title>
+    <updated>2024-03-09T07:13:43.526Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hsy10492.github.io"/>
+    <link rel="self" href="https://hsy10492.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://hsy10492.github.io/images/avatar.png</logo>
+    <icon>https://hsy10492.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, the_thing</rights>
+    <entry>
+        <title type="html"><![CDATA[【大乱炖】SCNU 物师 资料整理]]></title>
+        <id>https://hsy10492.github.io/post/scnu-22-jie-wu-shi-zi-liao-zheng-li/</id>
+        <link href="https://hsy10492.github.io/post/scnu-22-jie-wu-shi-zi-liao-zheng-li/">
+        </link>
+        <updated>2024-02-20T14:23:27.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="笔记备份">笔记备份：</h2>
+<blockquote>
+<p>链接：<a href="https://pan.quark.cn/s/964bb6dedb57">https://pan.quark.cn/s/964bb6dedb57</a><br>
+提取码：CRTm</p>
+</blockquote>
+<h3 id="大一上">大一上</h3>
+<blockquote>
+<p>链接：<a href="https://pan.quark.cn/s/49a4e4792e10">https://pan.quark.cn/s/49a4e4792e10</a><br>
+提取码：RFsU</p>
+</blockquote>
+<h3 id="大一下">大一下</h3>
+<blockquote>
+<p>链接：<a href="https://pan.quark.cn/s/58a11b5da2e7">https://pan.quark.cn/s/58a11b5da2e7</a><br>
+提取码：V3mu</p>
+</blockquote>
+<h3 id="大二上">大二上</h3>
+<blockquote>
+<p>链接：<a href="https://pan.quark.cn/s/cdd2ee870b3f">https://pan.quark.cn/s/cdd2ee870b3f</a><br>
+提取码：4ncJ</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工具]]></title>
+        <id>https://hsy10492.github.io/post/gong-ju/</id>
+        <link href="https://hsy10492.github.io/post/gong-ju/">
+        </link>
+        <updated>2024-02-20T14:21:33.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="画图">画图</h1>
+<p>在线数据可视化表库</p>
+<p><a href="https://hiplot.com.cn/cloud-tool/data-analysis/list">Hiplot</a></p>
+<p><a href="https://echarts.apache.org/examples/zh/index.html">Examples - Apache ECharts</a></p>
+<p>专业矢量绘图工具</p>
+<p><a href="https://blog.csdn.net/qq_41775769/article/details/115579159">AxGlyph矢量绘图软件-CSDN博客</a></p>
+<p>作图以及插值拟合很方便的软件</p>
+<p>Origin</p>
+<p>流程图绘制</p>
+<p><a href="https://www.processon.com/">ProcessOn思维导图流程图-在线画思维导图流程图_在线作图实时协作</a></p>
+<p>数据可视化图：<a href="https://echarts.apache.org/examples/zh/index.html#chart-type-line">Examples - Apache ECharts</a><br>
+seaborn：<a href="https://seaborn.pydata.org/">seaborn: statistical data visualization — seaborn 0.13.2 documentation (pydata.org)</a><br>
+生物信息在线分析可视化:<a href="https://www.bioladder.cn/web/#/pro/index">BioLadder-生物信息在线分析可视化云平台</a><br>
+小提琴图：<a href="https://zhuanlan.zhihu.com/p/411001831">MATLAB 一行代码应用ggtheme主题--violinplot版(小提琴图) - 知乎 (zhihu.com)</a><br>
+图（内有各类图的链接）：<a href="https://levitate-qian.github.io/2020/05/04/10%E7%B1%BB%E6%A1%88%E4%BE%8B%E5%B8%A6%E4%BD%A0%E4%BA%86%E8%A7%A3%E8%AE%BA%E6%96%87%E6%8F%92%E5%9B%BE%E5%88%B6%E4%BD%9C/">10类案例带你了解论文插图制作 | Levitate_ (levitate-qian.github.io)</a><br>
+LaTex表格：<a href="https://www.tablesgenerator.com/">Create LaTeX tables online – TablesGenerator.com</a></p>
+<h1 id="统计数据分析">统计数据分析</h1>
+<p>统计数据分析模型网站</p>
+<p><a href="https://www.spsspro.com/">SPSSPRO-免费专业的在线数据分析平台</a></p>
+<p>线性和通用优化求解器，求解各类规划模型</p>
+<p><a href="https://blog.csdn.net/COCO56/article/details/108206492">LINGO 18.0安装教程_lingo18.0-CSDN博客</a></p>
+<h1 id="论文写作">论文写作</h1>
+<p>公式编辑器，用于编写各类数学公式和特殊符号</p>
+<p>Mathtype</p>
+<p>公式提取软件，用于将其他论文的公式提取到自己论文中</p>
+<p>Mathpix</p>
+<p>英文文章免费检查语法拼写</p>
+<p>Grammarly</p>
+<h1 id="数据收集">数据收集</h1>
+<p><img src="%E5%B7%A5%E5%85%B7_md_files/image_20240201224956.png?v=1&amp;type=image&amp;token=V1:PehnZGhtqb45FXcJxlpn0_rCBtF_4_nUuhwgld6r-KE" alt="image-20240201223841463" loading="lazy"><br>
+CNKI 中国知网经济社会大数据研究平台：https://data.cnki.net/<br>
+大数据导航（各国统计局/世界银行/世界卫生组织/粮农组织数据中心等)：http://hao.199it.com/<br>
+EPSDTA：https://www.epsnet.com.cn/index.html#/Index<br>
+联合国数据：<strong>https://data.un.org/Default.aspx</strong><br>
+Github：https://github.com/awesomedata/awesome-public-datasets<br>
+ICPSR：https://www.icpsr.umich.edu/web/pages/ICPSR/index<br>
+数据世界：https://ourworldindata.org/<br>
+Kaggle数据集：https://www.kaggle.com/datasets<br>
+天池数据集：https://tianchi.aliyun.com/dataset/<br>
+国家数据：https://data.stats.gov.cn/english/</p>
+<h1 id="资源">资源</h1>
+<p>美赛官网：<a href="https://www.contest.comap.com/undergraduate/contests/mcm/login.php">MCM: The Mathematical Contest in Modeling (comap.com)</a></p>
+<p>PDF页面裁剪：<a href="https://pdfresizer.com/crop">Crop PDF files online - PDF Tools (pdfresizer.com)</a><br>
+PDF工具箱：<a href="https://smallpdf.com/">Smallpdf.com - A Free Solution to all your PDF Problems</a><br>
+gitub代理下载加速：<a href="https://mirror.ghproxy.com/">GitHub Proxy 代理加速 (ghproxy.com)</a><br>
+生成摘要：<a href="https://www.paperdigest.org/">Paper Digest – AI-Powered Research Platform</a><br>
+chatgpt提示词（chat内容前发送）：https://www.aishort.top/en/<br>
+公式编辑（可在线）：<a href="https://www.simpletex.cn/">SimpleTex主页——致力于提供先进的公式识别/文档识别解决方案</a><br>
+DeepL：<a href="https://www.deepl.com/translator">DeepL翻译：全世界最准确的翻译</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown语法记录]]></title>
+        <id>https://hsy10492.github.io/post/markdown-yu-fa-ji-lu/</id>
+        <link href="https://hsy10492.github.io/post/markdown-yu-fa-ji-lu/">
+        </link>
+        <updated>2024-02-20T12:15:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>https://markdown.com.cn/basic-syntax/</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>https://markdown.com.cn/basic-syntax/</p>
+<!-- more -->
+<h2 id="标题">标题</h2>
+<p><code>\# Heading</code></p>
+<h2 id="段落">段落</h2>
+<p>空白行 or   <code>&lt;/p&gt;</code></p>
+<h2 id="换行">换行</h2>
+<p>在一行的末尾添加两个或多个空格，然后按回车键 or <code>&lt;br&gt;</code></p>
+<h2 id="粗体">粗体</h2>
+<p><code>**bold text**</code></p>
+<h2 id="斜体">斜体</h2>
+<p><code>*ltalic*</code></p>
+<h2 id="引用">引用</h2>
+<h3 id="普通">普通</h3>
+<p>段前加 <code>&gt;</code>    换行 空白行前加<code>&gt;</code></p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<h3 id="嵌套">嵌套</h3>
+<p>在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h2 id="列表">列表</h2>
+<h3 id="无序列表">无序列表</h3>
+<ul>
+<li>破折号(<code>-</code>)</li>
+</ul>
+<ul>
+<li>星号(<code>*</code>)</li>
+</ul>
+<ul>
+<li>加号(<code>+</code>)</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
+<p>从1开始</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+</ol>
+<h3 id="在列表中嵌套其他元素">在列表中嵌套其他元素</h3>
+<h4 id="段落-2">段落</h4>
+<p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符</p>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here's the second list item.</p>
+<p>I need to add another paragraph below the second list item.</p>
+</li>
+<li>
+<p>And here's the third list item.</p>
+</li>
+</ul>
+<h4 id="引用块">引用块</h4>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here's the second list item.</p>
+<blockquote>
+<p>A blockquote would look great below the second list item.</p>
+</blockquote>
+</li>
+<li>
+<p>And here's the third list item</p>
+</li>
+</ul>
+<h4 id="代码块">代码块</h4>
+<p>代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。</p>
+<ol>
+<li>
+<p>Open the file.</p>
+</li>
+<li>
+<p>Find the following code block on line 21:</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Test&lt;/title&gt;
+  &lt;/head&gt;
+</code></pre>
+</li>
+<li>
+<p>Update the title to match the name of your website.</p>
+</li>
+</ol>
+<h2 id="代码">代码</h2>
+<p>显示为代码 放在反引号中 (`)<br>
+如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(``)中<br>
+代码块的每一行缩进至少四个空格或一个制表符</p>
+<pre><code> &lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+ &lt;/html&gt;
+</code></pre>
+<p>围栏式代码块<br>
+在代码块之前和之后的行上使用三个反引号（(```）或三个波浪号（~~~）</p>
+<pre><code class="language-json">//在受防护的代码块之前的反引号旁边指定一种语言
+{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+</code></pre>
+<h2 id="分隔线">分隔线</h2>
+<p>在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容</p>
+<h2 id="链接">链接</h2>
+<p><code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code>   (title 当鼠标悬停在链接上时会出现的文字)</p>
+<pre><code>这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)
+</code></pre>
+<p>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a></p>
+<p>可点击链接</p>
+<pre><code>&lt;fake@example.com&gt;
+</code></pre>
+<p><a href="mailto:fake@example.com">fake@example.com</a></p>
+<p>带格式化的链接</p>
+<pre><code>I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
+</code></pre>
+<p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>
+See the section on <a href="#code"><code>code</code></a>.</p>
+<h2 id="图片">图片</h2>
+<pre><code>[![沙漠中的岩石图片](/assets/img/shiprock.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)
+</code></pre>
+<h2 id="杂">杂</h2>
+<p>删除线  前后加~~  <s>酸掉</s></p>
+<p>任务列表  <code>- [ ]</code>   <code>- [x]</code></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5678207"><label class="task-list-item-label" for="task-item-5678207"> Write the press release</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9605342"><label class="task-list-item-label" for="task-item-9605342"> Update the website</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4559952"><label class="task-list-item-label" for="task-item-4559952"> Contact the media</label></li>
+</ul>
+<p>emoji</p>
+<pre><code>真好笑！ :joy:
+</code></pre>
+<p>真好笑！ 😂</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你有这么高速运转的机械进入中国]]></title>
+        <id>https://hsy10492.github.io/post/ni-you-zhe-me-gao-su-yun-zhuan-de-ji-jie-jin-ru-zhong-guo/</id>
+        <link href="https://hsy10492.github.io/post/ni-you-zhe-me-gao-su-yun-zhuan-de-ji-jie-jin-ru-zhong-guo/">
+        </link>
+        <updated>2024-02-20T11:35:07.000Z</updated>
+        <summary type="html"><![CDATA[<p>记住我给出的原理小的时候☝️😯</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记住我给出的原理小的时候☝️😯</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密测试]]></title>
+        <id>https://hsy10492.github.io/post/jia-mi-ce-shi/</id>
+        <link href="https://hsy10492.github.io/post/jia-mi-ce-shi/">
+        </link>
+        <updated>2024-02-20T08:17:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>摘要看得到吗🤓</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>摘要看得到吗🤓</p>
+<!-- more -->
+<script language = JavaScript> function password() {
+
+    var testV = 1;
+
+    var pass1 = prompt('please input the password','');
+
+    var passwordforthisarticle = "293791";
+
+    var inputtimemax = 19960319;
+
+    while (testV < inputtimemax) {
+
+    if (!pass1)
+
+    history.go(-1);
+
+    if (pass1 == passwordforthisarticle) {
+
+    break;
+
+    }
+
+    testV+=1;
+
+    var pass1 =
+
+    prompt('Password error!');
+
+    }
+
+    if (pass1!= passwordforthisarticle & testV == inputtimemax)  
+
+    history.go(-1);
+
+    return " ";
+
+    }
+
+    document.write(password());
+
+
+
+</script> 
+<p>作者：第十三只黑鸟 https://www.bilibili.com/read/cv13059251/ 出处：bilibili</p>
+<p>123456或vtcuift</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文章测试]]></title>
+        <id>https://hsy10492.github.io/post/wen-zhang-ce-shi/</id>
+        <link href="https://hsy10492.github.io/post/wen-zhang-ce-shi/">
+        </link>
+        <updated>2024-02-20T07:53:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>😎 这是摘要</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😎 这是摘要</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://hsy10492.github.io/post-images/1708415629955.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Markdown语法记录 | the_thing</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://hsy10492.github.io/favicon.ico?v=1709968420598">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://hsy10492.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://hsy10492.github.io">
+        <img class="avatar" src="https://hsy10492.github.io/images/avatar.png?v=1709968420598" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://hsy10492.github.io">
+        <h1 class="site-title">the_thing</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+            <div class="feature-container" style="background-image: url('https://hsy10492.github.io/post-images/markdown-yu-fa-ji-lu.png')">
+            </div>
+          
+          <h2 class="post-title">Markdown语法记录</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2024-02-20</span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>https://markdown.com.cn/basic-syntax/</p>
+<!-- more -->
+<h2 id="标题">标题</h2>
+<p><code>\# Heading</code></p>
+<h2 id="段落">段落</h2>
+<p>空白行 or   <code>&lt;/p&gt;</code></p>
+<h2 id="换行">换行</h2>
+<p>在一行的末尾添加两个或多个空格，然后按回车键 or <code>&lt;br&gt;</code></p>
+<h2 id="粗体">粗体</h2>
+<p><code>**bold text**</code></p>
+<h2 id="斜体">斜体</h2>
+<p><code>*ltalic*</code></p>
+<h2 id="引用">引用</h2>
+<h3 id="普通">普通</h3>
+<p>段前加 <code>&gt;</code>    换行 空白行前加<code>&gt;</code></p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+<h3 id="嵌套">嵌套</h3>
+<p>在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h2 id="列表">列表</h2>
+<h3 id="无序列表">无序列表</h3>
+<ul>
+<li>破折号(<code>-</code>)</li>
+</ul>
+<ul>
+<li>星号(<code>*</code>)</li>
+</ul>
+<ul>
+<li>加号(<code>+</code>)</li>
+</ul>
+<h3 id="有序列表">有序列表</h3>
+<p>从1开始</p>
+<ol>
+<li>first item</li>
+<li>second item</li>
+</ol>
+<h3 id="在列表中嵌套其他元素">在列表中嵌套其他元素</h3>
+<h4 id="段落-2">段落</h4>
+<p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符</p>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here's the second list item.</p>
+<p>I need to add another paragraph below the second list item.</p>
+</li>
+<li>
+<p>And here's the third list item.</p>
+</li>
+</ul>
+<h4 id="引用块">引用块</h4>
+<ul>
+<li>
+<p>This is the first list item.</p>
+</li>
+<li>
+<p>Here's the second list item.</p>
+<blockquote>
+<p>A blockquote would look great below the second list item.</p>
+</blockquote>
+</li>
+<li>
+<p>And here's the third list item</p>
+</li>
+</ul>
+<h4 id="代码块">代码块</h4>
+<p>代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。</p>
+<ol>
+<li>
+<p>Open the file.</p>
+</li>
+<li>
+<p>Find the following code block on line 21:</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Test&lt;/title&gt;
+  &lt;/head&gt;
+</code></pre>
+</li>
+<li>
+<p>Update the title to match the name of your website.</p>
+</li>
+</ol>
+<h2 id="代码">代码</h2>
+<p>显示为代码 放在反引号中 (`)<br>
+如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(``)中<br>
+代码块的每一行缩进至少四个空格或一个制表符</p>
+<pre><code> &lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+ &lt;/html&gt;
+</code></pre>
+<p>围栏式代码块<br>
+在代码块之前和之后的行上使用三个反引号（(```）或三个波浪号（~~~）</p>
+<pre><code class="language-json">//在受防护的代码块之前的反引号旁边指定一种语言
+{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+</code></pre>
+<h2 id="分隔线">分隔线</h2>
+<p>在单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容</p>
+<h2 id="链接">链接</h2>
+<p><code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code>   (title 当鼠标悬停在链接上时会出现的文字)</p>
+<pre><code>这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)
+</code></pre>
+<p>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a></p>
+<p>可点击链接</p>
+<pre><code>&lt;fake@example.com&gt;
+</code></pre>
+<p><a href="mailto:fake@example.com">fake@example.com</a></p>
+<p>带格式化的链接</p>
+<pre><code>I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
+</code></pre>
+<p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>
+This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>
+See the section on <a href="#code"><code>code</code></a>.</p>
+<h2 id="图片">图片</h2>
+<pre><code>[![沙漠中的岩石图片](/assets/img/shiprock.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)
+</code></pre>
+<h2 id="杂">杂</h2>
+<p>删除线  前后加~~  <s>酸掉</s></p>
+<p>任务列表  <code>- [ ]</code>   <code>- [x]</code></p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5678207"><label class="task-list-item-label" for="task-item-5678207"> Write the press release</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9605342"><label class="task-list-item-label" for="task-item-9605342"> Update the website</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4559952"><label class="task-list-item-label" for="task-item-4559952"> Contact the media</label></li>
+</ul>
+<p>emoji</p>
+<pre><code>真好笑！ :joy:
+</code></pre>
+<p>真好笑！ 😂</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://hsy10492.github.io/post/ni-you-zhe-me-gao-su-yun-zhuan-de-ji-jie-jin-ru-zhong-guo/">
+              <h3 class="post-title">
+                下一篇：你有这么高速运转的机械进入中国
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://hsy10492.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '4515db16f0c6fd97d559',
+        clientSecret: 'af63b7b186a8173c7db1f25f6e8b16145f6e8730',
+        repo: 'Comment',
+        owner: 'hsy10492',
+        admin: ['hsy10492'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
